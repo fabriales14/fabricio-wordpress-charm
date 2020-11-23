@@ -1,0 +1,10 @@
+name: wordpress-charm
+summary: A basic Wordpress charm
+maintainer: Fabricio Alvarado <falvarado@akurey.com>
+description: |
+        Wordpress charm.
+tags:
+    - blog
+requires:
+    db:
+        interface: mysql
